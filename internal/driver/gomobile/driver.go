@@ -179,6 +179,11 @@ func (d *mobileDriver) Run() {
 	})
 }
 
+func (*mobileDriver) RunOnMain(f func()) {
+	// TODO: How is this done for the gomobile driver?
+	f()
+}
+
 func (d *mobileDriver) onStart() {
 }
 

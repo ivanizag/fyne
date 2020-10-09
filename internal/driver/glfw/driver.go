@@ -71,6 +71,10 @@ func (d *gLDriver) Run() {
 	d.runGL()
 }
 
+func (*gLDriver) RunOnMain(f func()) {
+	runOnMain(f)
+}
+
 func (d *gLDriver) addWindow(w *window) {
 	d.windowLock.Lock()
 	defer d.windowLock.Unlock()

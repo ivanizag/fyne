@@ -34,4 +34,6 @@ type Driver interface {
 	Run()
 	// Quit closes the driver and open windows, then exit the application.
 	Quit()
+	// RunOnMain runs a function to run on the main thread
+	RunOnMain(func())
 }

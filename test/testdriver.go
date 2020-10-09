@@ -123,6 +123,10 @@ func (d *testDriver) Quit() {
 	// no-op
 }
 
+func (*testDriver) RunOnMain(f func()) {
+	f()
+}
+
 func (d *testDriver) removeWindow(w *testWindow) {
 	d.windowsMutex.Lock()
 	i := 0
