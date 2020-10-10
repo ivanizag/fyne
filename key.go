@@ -32,6 +32,10 @@ const (
 	KeyHome KeyName = "Home"
 	// KeyEnd is the line-end key
 	KeyEnd KeyName = "End"
+	// KeyPause is the pause key
+	KeyPause KeyName = "Pause"
+	// KeyPrintScreen is the pause key
+	KeyPrintScreen KeyName = "PrintScreen"
 
 	// KeyF1 is the first function key
 	KeyF1 KeyName = "F1"

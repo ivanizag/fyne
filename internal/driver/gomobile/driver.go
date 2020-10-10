@@ -256,6 +256,7 @@ var keyCodeMap = map[key.Code]fyne.KeyName{
 	key.CodePageDown:        fyne.KeyPageDown,
 	key.CodeHome:            fyne.KeyHome,
 	key.CodeEnd:             fyne.KeyEnd,
+	key.CodePause:           fyne.KeyPause,
 
 	key.CodeF1:  fyne.KeyF1,
 	key.CodeF2:  fyne.KeyF2,
